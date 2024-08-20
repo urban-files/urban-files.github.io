@@ -1,0 +1,210 @@
+
+	main > .container {
+	  	padding: 60px 15px 0;
+	}
+
+	.con1 {
+		margin-top:56px;
+		background-image: url("../images/12.png");
+		background-size: cover;
+		background-position: center;
+		max-width: 1150px;
+		min-height: 646px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+		z-index:0;
+		position:relative;
+	}
+
+	.con1overlay {
+		margin-top:56px;
+		background-image: url("../images/12_02.png");
+		background-size: cover;
+		background-position: center;
+		max-width: 1150px;
+		min-height: 646px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+		opacity:1;
+		margin-top:-646px;
+		z-index:1;
+		position:relative;
+	}
+
+	.con2 {
+		background: black;
+		background-image: url("../images/1.png");
+		background-size: cover;
+		background-position: center;
+		max-width: 1150px;
+		min-height: 555px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+
+	@media (max-width: 485px) {
+	  .con1overlay {
+		margin-top: -525px;
+
+	  }
+	}
+
+	@media (max-width: 424px) {
+	  .con1overlay {
+		margin-top: -547px;
+
+	  }
+	}
+	@media (max-width: 360px) {
+	  .con1overlay {
+		margin-top: -681px;
+
+	  }
+	}
+	@media (max-width: 630px) {
+	  .con2 {
+		min-height: 560px;
+
+	  }
+	  .con2 p {
+	  	background:black;
+	  }
+	}
+
+	.con3 {
+
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con3col {
+		background-image: url("../images/16_2.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	.con4 {
+		margin-top:-65px;
+		max-width: 1150px;
+	}
+
+	.con5 {
+
+		max-width: 1150px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con6 {
+		background: black;
+		background-image: url("../images/grliga.png");
+		background-size: cover;
+		background-position: center;
+		max-width: 1150px;
+		min-height: 800px;
+	}
+
+	.con7 {
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con7col {
+		background-image: url("../images/22.png");
+		background-size: cover;
+		background-position: center;
+		min-height:250px;
+	}
+
+
+
+	.tile {
+		background: #f0f8ffc4;
+		margin: 35px;
+	}
+
+	.tile h3 {
+	    background: yellow;
+	    margin-left: -11px;
+	    margin-right: -11px;
+	    padding: 5px;
+	}
+
+
+	.con8 {
+		background: black;
+		background-image: url("../images/20.png");
+		background-size: cover;
+		background-position: top;
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+
+	.con9 {
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con9col {
+		background-image: url("../images/65.png");
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	.con10 {
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con11 {
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con12 {
+
+		max-width: 1150px;
+		min-height: 500px;
+		display: flex;
+		/*align-items: flex-end;*/
+		justify-content: center;
+	}
+
+	.con13head {
+		max-width: 1150px;
+		margin-top:-50px;
+	}
+	.con13 {
+		max-width: 1150px;
+	}
